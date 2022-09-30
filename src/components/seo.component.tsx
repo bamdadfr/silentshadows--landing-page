@@ -23,17 +23,15 @@ export function SeoComponent({
           url: `${SEO.canonical}${canonical}`,
         }}
       />
-      {/* {image && ( */}
-      {/*  <NextSeo */}
-      {/*    openGraph={{ */}
-      {/*      images: [ */}
-      {/*        { */}
-      {/*          url: image.url, */}
-      {/*        }, */}
-      {/*      ], */}
-      {/*    }} */}
-      {/*  /> */}
-      {/* )} */}
+      <NextSeo
+        openGraph={{
+          images: [
+            {
+              url: '/images/logo.png',
+            },
+          ],
+        }}
+      />
     </>
   );
 }

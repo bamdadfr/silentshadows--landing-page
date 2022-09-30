@@ -4,6 +4,8 @@ export const GA_TRACKING_ID = 'UA-149277070-2';
 
 export const DESCRIPTION = 'The Burning Crusade Classic Rogue Community';
 
+export const FREQ = 1400;
+
 export const SEO: DefaultSeoProps = {
   defaultTitle: 'Silent Shadows',
   titleTemplate: '%s | Silent Shadows',

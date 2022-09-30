@@ -2,6 +2,7 @@ import React, {ReactElement} from 'react';
 import Image from 'next/image';
 import styled from 'styled-components';
 import logo from '../../public/images/title.png';
+import {FadeAnimation} from '../animations/fade.animation';
 
 const Container = styled.div`
   transform: translateY(1rem) scale(1.3);
@@ -11,13 +12,15 @@ const Container = styled.div`
 export function TitleComponent(): ReactElement {
   return (
     <>
-      <Container>
-        <Image
-          src={logo}
-          alt=""
-          // layout="responsive"
-        />
-      </Container>
+      <FadeAnimation delay={0}>
+        <Container>
+          <Image
+            src={logo}
+            alt=""
+            // layout="responsive"
+          />
+        </Container>
+      </FadeAnimation>
     </>
   );
 }

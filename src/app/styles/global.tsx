@@ -18,6 +18,7 @@ export const GlobalStyled = createGlobalStyle`
   html {
     user-select: none;
     font-size: 150%;
+    background: black;
   }
 `;
 

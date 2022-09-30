@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/bamdadsabbagh/silentshadows--landing-page/compare/v1.0.1...v1.0.2) (2022-09-30)
+
+
+### Bug Fixes
+
+* **SEO:** Add image ([eaf8316](https://github.com/bamdadsabbagh/silentshadows--landing-page/commit/eaf8316c98a193ebdc96e76accb4678a1f080cb3))
+
 ## [1.0.1](https://github.com/bamdadsabbagh/silentshadows--landing-page/compare/v1.0.0...v1.0.1) (2022-09-30)
 
 

@@ -1,0 +1,49 @@
+{
+  "name": "landing-page",
+  "scripts": {
+    "build": "next build && yarn build:post",
+    "build:post": "yarn build:post:remove-source-maps && yarn build:post:build-sitemap",
+    "build:post:build-sitemap": "next-sitemap",
+    "build:post:remove-source-maps": "find .next -type f -name \"*.map\" -exec rm {} \\;",
+    "clean": "npx rimraf .next",
+    "dev": "yarn clean && next dev",
+    "export": "next export",
+    "lint": "eslint src --ext .js,.jsx,.ts,.tsx --fix",
+    "package:clean": "npx rimraf .next && npx rimraf node_modules",
+    "package:reinstall": "yarn package:clean && yarn",
+    "package:sort": "npx sort-package-json",
+    "start": "next start",
+    "test": "yarn jest",
+    "test:coverage": "jest --coverage && codecov",
+    "test:experimental": "cross-env NODE_OPTIONS=--experimental-vm-modules jest",
+    "test:watch": "jest --watch",
+    "test:watch:all": "jest --watchAll"
+  },
+  "dependencies": {
+    "file-loader": "^6.2.0",
+    "next": "^12.3.1",
+    "next-seo": "^5.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "styled-components": "^5.3.6"
+  },
+  "devDependencies": {
+    "@bamdadsabbagh/eslint-config": "^2.0.26",
+    "@iconify/icons-fa6-brands": "^1.2.6",
+    "@iconify/react": "^4.0.0",
+    "@types/react": "18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "@types/styled-components": "^5.1.26",
+    "babel-plugin-styled-components": "^2.0.7",
+    "eslint-config-next": "^12.3.1",
+    "eslint-plugin-jest-dom": "^4.0.2",
+    "eslint-plugin-testing-library": "^5.7.0",
+    "next-sitemap": "^3.1.23",
+    "null-loader": "^4.0.1",
+    "rimraf": "^3.0.2",
+    "sass": "^1.55.0",
+    "sass-reset": "^1.0.4",
+    "typescript-plugin-styled-components": "^2.0.0"
+  },
+  "version": "1.36.7"
+}

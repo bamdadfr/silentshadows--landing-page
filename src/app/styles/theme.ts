@@ -1,17 +1,1 @@
-export const theme = {
-  black: '#000000',
-  white: '#ffffff',
-  grayDark: '#6b6a6b',
-  grayLight: '#bfbebe',
-  grayBlue: '#F2F2F7',
-  antracite: '#474747',
-  salmon: '#f8a284',
-  salmonLight: '#f4eeed',
-  salmonDark: '#f79c81',
-  green: '#698c73',
-  greenDark: '#353834',
-  blue: '#324163',
-  blueLight: '#a1a7d4',
-  brown: '#97856F',
-  gold: '#F2C46C',
-};
+export const theme = {};

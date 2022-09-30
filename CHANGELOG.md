@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/bamdadsabbagh/silentshadows--landing-page/compare/v1.0.2...v1.1.0) (2022-09-30)
+
+
+### Features
+
+* Change description + Add fade animation + Remove twitter from socials ([d18f5f1](https://github.com/bamdadsabbagh/silentshadows--landing-page/commit/d18f5f1290957eec852a45bc7468753e48685c05))
+
 ## [1.0.2](https://github.com/bamdadsabbagh/silentshadows--landing-page/compare/v1.0.1...v1.0.2) (2022-09-30)
 
 

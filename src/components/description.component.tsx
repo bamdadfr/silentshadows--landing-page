@@ -13,6 +13,8 @@ const Container = styled.div`
   align-items: center;
 
   gap: 0.5rem;
+
+  text-align: center;
 `;
 
 const Small = styled.span`

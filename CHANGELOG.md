@@ -1,3 +1,11 @@
+## [1.1.2](https://github.com/bamdadsabbagh/silentshadows--landing-page/compare/v1.1.1...v1.1.2) (2022-09-30)
+
+
+### Bug Fixes
+
+* Add scaling above tablets ([a5a33b0](https://github.com/bamdadsabbagh/silentshadows--landing-page/commit/a5a33b0f0070d47fd6427767e0f816d1accc5d69))
+* Remove title scaling + Add global padding ([4cc969f](https://github.com/bamdadsabbagh/silentshadows--landing-page/commit/4cc969fb002a33ead728c7b72d54bde31bb17da0))
+
 ## [1.1.1](https://github.com/bamdadsabbagh/silentshadows--landing-page/compare/v1.1.0...v1.1.1) (2022-09-30)
 
 

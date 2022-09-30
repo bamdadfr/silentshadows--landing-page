@@ -1,3 +1,15 @@
+## [1.1.1](https://github.com/bamdadsabbagh/silentshadows--landing-page/compare/v1.1.0...v1.1.1) (2022-09-30)
+
+
+### Bug Fixes
+
+* Add mobile styling ([9ca3eac](https://github.com/bamdadsabbagh/silentshadows--landing-page/commit/9ca3eac397819ef53b9ee72a325bf4a795b6b797))
+
+
+### Performance Improvements
+
+* Purge theme ([45772c3](https://github.com/bamdadsabbagh/silentshadows--landing-page/commit/45772c331b5752f8e0d1f9e986ebfe79de4340f7))
+
 # [1.1.0](https://github.com/bamdadsabbagh/silentshadows--landing-page/compare/v1.0.2...v1.1.0) (2022-09-30)
 
 

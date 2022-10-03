@@ -1,6 +1,6 @@
 export const config = {
   // sprite,
-  sprite: 'https://silentshadows.net/wp-content/uploads/2020/06/sprite-smoke.png',
+  sprite: 'https://www.silentshadows.net/images/sprite.png',
   canvas: {
     width: 825,
     height: 412,

@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/bamdadsabbagh/silentshadows--landing-page/compare/v1.1.2...v1.1.3) (2022-10-03)
+
+
+### Bug Fixes
+
+* **Smoke:** Add correct sprite URL ([6f74f53](https://github.com/bamdadsabbagh/silentshadows--landing-page/commit/6f74f5382fa550ce96db9bb83fb1e0b61056f019))
+
 ## [1.1.2](https://github.com/bamdadsabbagh/silentshadows--landing-page/compare/v1.1.1...v1.1.2) (2022-09-30)
 
 
